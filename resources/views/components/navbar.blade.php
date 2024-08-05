@@ -1,4 +1,4 @@
-<header class="bg-white" x-data="{ isOpen: false, isProductOpen: false }">
+<header class="sticky top-0 z-10 bg-white border-b border-gray-200" x-data="{ isOpen: false, isProductOpen: false }">
   <nav class="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
@@ -18,9 +18,9 @@
       </button>
     </div>
     <div class="hidden lg:flex lg:gap-x-10">
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900">Home</a>
+      <a href="/" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Home</a>
       <div class="relative">
-        <button @click="isProductOpen = !isProductOpen" type="button" class="flex items-center gap-x-1 text-base font-semibold leading-6 text-gray-900" aria-expanded="false">
+        <button @click="isProductOpen = !isProductOpen" type="button" class="flex items-center gap-x-1 text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none" aria-expanded="false">
           Profile
           <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
@@ -136,13 +136,15 @@
         </div>
       </div>
 
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900">Article</a>
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900">Achievment</a>
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900">Galery</a>
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900">Contact</a>
+      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Article</a>
+      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Achievement</a>
+      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Gallery</a>
+      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Contact</a>
     </div>
-    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end space-x-4 items-center">
+      <a href="/login" class="text-base font-semibold leading-6 text-gray-900 hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white focus:outline-none rounded transition duration-200 px-3 py-2">Log in</a>
+      <p class="text-gray-900">|</p>
+      <a href="/register" class="text-base font-semibold leading-6 text-gray-900 hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white focus:outline-none rounded transition duration-200 px-3 py-2">Sign up</a>
     </div>
   </nav>
   <!-- Mobile menu, show/hide based on menu open state. -->
@@ -167,7 +169,7 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
+              <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
               <div class="-mx-3">
                 <button @click="isProductOpen = !isProductOpen" type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
                   Profile
@@ -191,13 +193,15 @@
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact sales</a>
                 </div>
               </div>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Achievment</a>
+              <a href="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Achievment</a>
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Gallery</a>
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
             </div>
-            <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
-            </div>
+            <div class="py-6 flex justify-center items-center space-x-3">
+              <a href="/login" class="block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-indigo-50">Log in</a>
+              <p class="text-gray-900 ml-3 mr-3">|</p>
+              <a href="/register" class="block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-indigo-50">Sign up</a>
+          </div>
           </div>
         </div>
       </div>
