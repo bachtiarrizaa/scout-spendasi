@@ -136,8 +136,8 @@
         </div>
       </div>
 
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Article</a>
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Achievement</a>
+      <a href="/blog" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Article</a>
+      <a href="/achievment" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Achievement</a>
       <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Gallery</a>
       <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Contact</a>
     </div>
@@ -193,7 +193,8 @@
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact sales</a>
                 </div>
               </div>
-              <a href="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Achievment</a>
+              <a href="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Article</a>
+              <a href="/achievment" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Achievment</a>
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Gallery</a>
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
             </div>

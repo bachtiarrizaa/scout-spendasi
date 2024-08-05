@@ -16,6 +16,10 @@ Route::get('/about', function() {
     return view('about');
 });
 
+Route::get('/achievment', function() {
+    return view('achievment');
+});
+
 
 Route::get('/contact', function() {
     return view('contact');
