@@ -9,7 +9,6 @@
     <script src="./node_modules/preline/dist/preline.js"></script>
     @vite(['resources/css/app.css','resources/js/app.js'])
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
 

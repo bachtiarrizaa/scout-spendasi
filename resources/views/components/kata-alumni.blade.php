@@ -1,9 +1,9 @@
 <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-6xl px-6 py-10 mx-auto">
+    <div class="max-w-6xl px-6 py-6 mx-auto">
         <p class="text-xl font-medium text-blue-500 ">Testimonials</p>
 
         <h1 class="mt-2 text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">
-            What clients saying
+            Apa Kata Purna Scout Spendasi
         </h1>
 
         <main class="relative z-0 w-full mt-8 md:flex md:items-center xl:mt-12">

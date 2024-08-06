@@ -4,7 +4,7 @@
         <div class="container px-6 py-2 mx-auto">
             <div class="flex justify-between items-center">
                 <div class="text-left">
-                    <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">From the blog</h1>
+                    <h1 class="text-2xl font-semibold text-gray-800 capitalize lg:text-3xl dark:text-white">Artikel Scout Spendasi</h1>
                 </div>
                 <div>
                     <form class="flex items-center space-x-2">

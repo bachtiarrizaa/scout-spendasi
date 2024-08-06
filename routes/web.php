@@ -7,8 +7,8 @@ Route::get('/', function () {
 });
 
 
-Route::get('/blog', function() {
-    return view('blog', ['title' => 'Blog Page']);
+Route::get('/artikel', function() {
+    return view('artikel');
 });
 
 
@@ -16,8 +16,16 @@ Route::get('/about', function() {
     return view('about');
 });
 
-Route::get('/achievment', function() {
-    return view('achievment');
+Route::get('/pembina-scout-spendasi', function() {
+    return view('pembina-scout-spendasi');
+});
+
+Route::get('/dewan-galang', function() {
+    return view('dewan-galang');
+});
+
+Route::get('/prestasi', function() {
+    return view('prestasi');
 });
 
 

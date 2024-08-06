@@ -21,7 +21,7 @@
       <a href="/" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Home</a>
       <div class="relative">
         <button @click="isProductOpen = !isProductOpen" type="button" class="flex items-center gap-x-1 text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none" aria-expanded="false">
-          Profile
+          Profil
           <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
           </svg>
@@ -56,7 +56,7 @@
               </div>
               <div class="flex-auto">
                 <a href="#" class="block font-semibold text-gray-900">
-                  Analytics
+                  Pangkalan
                   <span class="absolute inset-0"></span>
                 </a>
                 <p class="mt-1 text-gray-600">Get a better understanding of your traffic</p>
@@ -70,7 +70,7 @@
               </div>
               <div class="flex-auto">
                 <a href="#" class="block font-semibold text-gray-900">
-                  Engagement
+                  Scout Spendasi
                   <span class="absolute inset-0"></span>
                 </a>
                 <p class="mt-1 text-gray-600">Speak directly to your customers</p>
@@ -83,8 +83,8 @@
                 </svg>
               </div>
               <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
-                  Security
+                <a href="/pembina-scout-spendasi" class="block font-semibold text-gray-900">
+                  Pembina Scout Spendasi
                   <span class="absolute inset-0"></span>
                 </a>
                 <p class="mt-1 text-gray-600">Your customers’ data will be safe and secure</p>
@@ -97,8 +97,8 @@
                 </svg>
               </div>
               <div class="flex-auto">
-                <a href="#" class="block font-semibold text-gray-900">
-                  Integrations
+                <a href="/dewan-galang" class="block font-semibold text-gray-900">
+                  Anggota Dewan Galang
                   <span class="absolute inset-0"></span>
                 </a>
                 <p class="mt-1 text-gray-600">Connect with third-party tools</p>
@@ -112,7 +112,7 @@
               </div>
               <div class="flex-auto">
                 <a href="#" class="block font-semibold text-gray-900">
-                  Automations
+                  Purna Scout Spendasi
                   <span class="absolute inset-0"></span>
                 </a>
                 <p class="mt-1 text-gray-600">Build strategic funnels that will convert</p>
@@ -136,10 +136,10 @@
         </div>
       </div>
 
-      <a href="/blog" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Article</a>
-      <a href="/achievment" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Achievement</a>
+      <a href="/artikel" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Artikel</a>
+      <a href="/prestasi" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Prestasi</a>
       <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Gallery</a>
-      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Contact</a>
+      <a href="#" class="text-base font-semibold leading-6 text-gray-900 hover:text-indigo-600 focus:text-indigo-600 focus:outline-none">Kontak</a>
     </div>
     <div class="hidden lg:flex lg:flex-1 lg:justify-end space-x-4 items-center">
       <a href="/login" class="text-base font-semibold leading-6 text-gray-900 hover:bg-indigo-600 hover:text-white focus:bg-indigo-600 focus:text-white focus:outline-none rounded transition duration-200 px-3 py-2">Log in</a>
@@ -172,7 +172,7 @@
               <a href="/" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Home</a>
               <div class="-mx-3">
                 <button @click="isProductOpen = !isProductOpen" type="button" class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50" aria-controls="disclosure-1" aria-expanded="false">
-                  Profile
+                  Profil
                   <!--
                     Expand/collapse icon, toggle classes based on menu open state.
 
@@ -184,19 +184,19 @@
                 </button>
                 <!-- 'Product' sub-menu, show/hide based on menu state. -->
                 <div x-show="isProductOpen" class="mt-2 space-y-2" id="disclosure-1">
-                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Analytics</a>
-                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Engagement</a>
-                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Security</a>
-                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Integrations</a>
-                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Automations</a>
+                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Pangkalan</a>
+                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Scout Spendasi</a>
+                  <a href="/pembina-scout-spendasi" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Pembina Scout Spendasi</a>
+                  <a href="/dewan-galang" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Anggota Dewan Galang</a>
+                  <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Purna Scout Spendasi</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Watch demo</a>
                   <a href="#" class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact sales</a>
                 </div>
               </div>
-              <a href="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Article</a>
-              <a href="/achievment" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Achievment</a>
+              <a href="/artikel" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Artikel</a>
+              <a href="/prestasi" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Prestasi</a>
               <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Gallery</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contact</a>
+              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Kontak</a>
             </div>
             <div class="py-6 flex justify-center items-center space-x-3">
               <a href="/login" class="block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-indigo-50">Log in</a>
